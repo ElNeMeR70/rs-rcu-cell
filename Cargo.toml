@@ -1,0 +1,13 @@
+[package]
+name = "rs-rcu-cell"
+version = "1.0.0"
+edition = "2021"
+description = "Read-Copy-Update (RCU) cell for lock-free reads"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-rcu-cell"
+keywords = ["rust", "rcu", "lock-free", "concurrency", "atomic"]
+
+[[bin]]
+name = "rs_rcu_cell"
+path = "main.rs"
